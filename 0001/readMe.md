@@ -16,6 +16,3 @@
 
 
 ![block](block.jpg)
-
-
-
