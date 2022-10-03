@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Укажите количество элементов в массиве: ");
+﻿
+Console.WriteLine("Укажите количество элементов в массиве: ");
 int size = Convert.ToInt32(Console.ReadLine());
 
 string[] arrayString = new string[size];
