@@ -12,3 +12,14 @@ for (int i = 0; i < size; i++){
     if (element.Length <= B){
         arrayString[A] = element;
         A++;
+    }
+}
+Console.WriteLine();
+PrintArray(arrayString);
+
+void PrintArray(string[] array){
+    for (int i = 0; i < array.Length; i++){
+        Console.Write($"\n Массив создержащий не более 3-х элементов - {array[i]}");
+    }
+    Console.WriteLine();
+}
